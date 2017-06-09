@@ -1,3 +1,4 @@
+
 # kony-zxing-barcode-scanner
 Integration of Zxing Barcode Scanner with Kony in 7.2.1 Visualizer
 Please follow the below steps for AAR Integration.
@@ -23,4 +24,9 @@ Add Android.jar, KonyWidgets.jar and classes.jar
 Classes.jar will be available in the AAR file. Open Archive the AAR and copy the Classes.jar
 Write a java class in a Static method to invoke an activity in the AAR file.
 
-In case if your Android Studio Project have few more dependencies use android precompile task to add them.
+***Step3***
+Using the jar exported in Step 2 do the FFI integrations.
+Copy the AAR under Customlibs/andriod folder
+
+
+In case if your Android Studio Project have few more dependencies use android precompile task to add those dependencies in Kony project.
